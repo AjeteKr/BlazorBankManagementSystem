@@ -1,0 +1,112 @@
+﻿
+@page "/transfer-user"
+@using BankAccount.Models
+@using Microsoft.Extensions.Configuration
+@using System.Net.Http
+@inject IConfiguration Configuration
+@inject NavigationManager NavigationManager
+@inject HttpClient httpClient
+@inject IJSRuntime JSRuntime
+<body class="home-container">
+    <div class="headerDiv fixed-top">
+        <h4><NavLink href="/home-user" class="menu-link">Home</NavLink></h4>
+        <h4><NavLink href="/transfer-user" class="menu-link">Transfer</NavLink></h4>
+        <h4><NavLink href="/deposite-user" class="menu-link">Deposite</NavLink></h4>
+        <h4><NavLink href="/withdraw-user" class="menu-link">Withdraw</NavLink></h4>
+        <h4><NavLink href="/logout" class="menu-link">Logout</NavLink></h4>
+    </div>
+    <p><span class="bank-name">AME</span></p>
+    <h1>Welcome to the Transfer Page</h1>
+    <p><span class="paragraph">This is the Transfer page content. Please log in to view your transfer details. </span></p>
+    <h2>Transfer Data</h2>
+    
+</body>
+<style>
+    .menu-link {
+        color: white;
+        text-decoration: none;
+    }
+    .headerDiv .menu-link {
+        cursor: pointer;
+        transition: color 0.3s ease-in-out;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .headerDiv h4:hover, .headerDiv h4.focus {
+        color: rgb(255, 200, 200)
+    }
+    .headerDiv {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: maroon;
+        color: white;
+        height: 9vh;
+        display: flex;
+        font-size: 18px;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 999;
+    }
+    .home-container {
+        text-align: center;
+        margin-top: 2.5%;
+        position: relative;
+        background-image: url('/Images/Home.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: white;
+        padding: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+    h1 {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    p {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .bank-name {
+        font-size: 84px;
+        font-weight: bold;
+        color: maroon;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .paragraph {
+        font-size: 22px;
+    }
+    .highlighted-row {
+        background-color: maroon;
+    }
+
+    /* CSS styling for the table */
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+        .table th, .table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            background-color: black; 
+            color: black;
+        }
+
+        
+
+
+        .table th {
+            background-color: #f2f2f2;
+        }
+
+    /* Styling for the highlighted rows */
+    .highlighted-row {
+        background-color: maroon;
+    }
+
+</style>
+@code {
+}

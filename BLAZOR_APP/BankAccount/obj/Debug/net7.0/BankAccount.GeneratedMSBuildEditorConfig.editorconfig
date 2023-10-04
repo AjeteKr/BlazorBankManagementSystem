@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BankAccount
+build_property.RootNamespace = BankAccount
+build_property.ProjectDir = C:\Users\ajete\Downloads\AccountingApplication-main\BANKACCOUNT\BLAZOR_APP\BankAccount\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ajete\Downloads\AccountingApplication-main\BANKACCOUNT\BLAZOR_APP\BankAccount
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ajete/Downloads/AccountingApplication-main/BANKACCOUNT/BLAZOR_APP/BankAccount/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/Downloads/AccountingApplication-main/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QmFua0FjY291bnRcQXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/Downloads/AccountingApplication-main/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = QmFua0FjY291bnRcUGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/Downloads/AccountingApplication-main/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/Pages/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = QmFua0FjY291bnRcUGFnZXNcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/Downloads/AccountingApplication-main/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/Pages/Transfer.razor]
+build_metadata.AdditionalFiles.TargetPath = QmFua0FjY291bnRcUGFnZXNcVHJhbnNmZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/Downloads/AccountingApplication-main/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = QmFua0FjY291bnRcX0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/Downloads/AccountingApplication-main/BANKACCOUNT/BLAZOR_APP/BankAccount/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/Downloads/AccountingApplication-main/BANKACCOUNT/BLAZOR_APP/BankAccount/Pages/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/Downloads/AccountingApplication-main/BANKACCOUNT/BLAZOR_APP/BankAccount/Pages/Transfer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhbnNmZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/Downloads/AccountingApplication-main/BANKACCOUNT/BLAZOR_APP/BankAccount/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/Downloads/AccountingApplication-main/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = QmFua0FjY291bnRcU2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-j7ga7p2t6u
+
+[C:/Users/ajete/Downloads/AccountingApplication-main/BANKACCOUNT/BLAZOR_APP/BankAccount/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-7nc3lralqp
+
+[C:/Users/ajete/Downloads/AccountingApplication-main/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QmFua0FjY291bnRcUGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/Downloads/AccountingApplication-main/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QmFua0FjY291bnRcUGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/Downloads/AccountingApplication-main/BANKACCOUNT/BLAZOR_APP/BankAccount/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/Downloads/AccountingApplication-main/BANKACCOUNT/BLAZOR_APP/BankAccount/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

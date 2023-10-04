@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BankAccount
+build_property.RootNamespace = BankAccount
+build_property.ProjectDir = C:\Users\ajete\OneDrive\Documents\GitHub\BANKACCOUNT\BLAZOR_APP\BankAccount\BankAccount\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ajete\OneDrive\Documents\GitHub\BANKACCOUNT\BLAZOR_APP\BankAccount\BankAccount
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ajete/OneDrive/Documents/GitHub/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/OneDrive/Documents/GitHub/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/Pages/Deposite.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwb3NpdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/OneDrive/Documents/GitHub/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/OneDrive/Documents/GitHub/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/OneDrive/Documents/GitHub/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/Pages/Logout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/OneDrive/Documents/GitHub/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/Pages/Modal.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW9kYWwucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/OneDrive/Documents/GitHub/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/Pages/Transfer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhbnNmZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/OneDrive/Documents/GitHub/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/Pages/User/DepositsUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxEZXBvc2l0c1VzZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/OneDrive/Documents/GitHub/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/Pages/User/HomeUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxIb21lVXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/OneDrive/Documents/GitHub/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/Pages/User/TransferUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxUcmFuc2ZlclVzZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/OneDrive/Documents/GitHub/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/Pages/Withdraw.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2l0aGRyYXcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/OneDrive/Documents/GitHub/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/OneDrive/Documents/GitHub/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-7nc3lralqp
+
+[C:/Users/ajete/OneDrive/Documents/GitHub/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ajete/OneDrive/Documents/GitHub/BANKACCOUNT/BLAZOR_APP/BankAccount/BankAccount/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

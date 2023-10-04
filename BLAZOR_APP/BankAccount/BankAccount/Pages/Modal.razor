@@ -1,0 +1,14 @@
+﻿
+<div class="modal-overlay" @onclick="CloseModal">
+    <div class="modal-content">
+        @ChildContent
+    </div>
+</div>
+@code {
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+    private void CloseModal()
+    {
+        // Add any necessary logic to close the modal
+    }
+}

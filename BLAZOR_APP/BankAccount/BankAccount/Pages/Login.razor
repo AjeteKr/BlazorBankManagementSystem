@@ -1,0 +1,121 @@
+﻿@page "/login"
+@using BankAccount.Models
+@using Microsoft.Extensions.Configuration
+@using System.Net.Http
+@inject IConfiguration Configuration
+@inject NavigationManager NavigationManager
+@inject HttpClient httpClient
+@inject IJSRuntime JSRuntime
+
+
+<style>
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-image: url('/Images/Image1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+    .login-form {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        border: 2px solid black;
+    }
+
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+    .error-message {
+        color: red;
+        margin-top: 10px;
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+        .button-container button {
+            padding: 10px 20px;
+            background-color: maroon;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .button-container a {
+            color: maroon;
+            text-decoration: none;
+        }
+</style>
+<div class="container">
+    <div class="login-form">
+        <h3>Login</h3>
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input id="username" type="text" @bind="username" />
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input id="password" type="password" @bind="password" />
+        </div>
+        @if (showErrorMessage)
+        {
+            <p class="error-message">Invalid username or password.</p>
+        }
+        <div class="button-container">
+            <button @onclick="LoginUser">Login</button>
+        </div>
+    </div>
+</div>
+@code {
+    private string username;
+    private string password;
+    private bool showErrorMessage;
+
+
+    private async Task LoginUser()
+    {
+        var response = await httpClient.PostAsJsonAsync("http://localhost:5233/api/auth/login", new UserLoginDto
+            {
+                Username = username,
+                Pin = Convert.ToInt32(password)
+            });
+        if (response.IsSuccessStatusCode)
+        {
+            var token = await response.Content.ReadAsStringAsync();
+            await JSRuntime.InvokeVoidAsync("localStorage.setItem", "token", token);
+            NavigationManager.NavigateTo("/home-user");
+        }
+        else
+        {
+            showErrorMessage = true;
+        }
+    }
+}

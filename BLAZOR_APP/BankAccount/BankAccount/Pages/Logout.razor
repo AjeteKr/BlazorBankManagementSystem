@@ -1,0 +1,76 @@
+﻿@page "/logout"
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+
+<style>
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-image: url('/Images/Image1.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .login-form {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        width: 300px;
+        border: 2px solid black;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+    .error-message {
+        color: red;
+        margin-top: 10px;
+    }
+</style>
+<div class="container">
+    <div class="login-form">
+        <h3>Logout</h3>
+        <p>Are you sure you want to log out?</p>
+
+        <button @onclick="PerformLogout" class="btn btn-primary">Yes</button>
+        <button @onclick="CloseModal" class="btn btn-secondary">No</button>
+    </div>
+</div>
+
+@code {
+    private bool showModal = false;
+    private void OpenModal()
+    {
+        showModal = true;
+    }
+    private void CloseModal()
+    { 
+        NavigationManager.NavigateTo("/home-user");
+    }
+    private async Task PerformLogout()
+    {
+        await JSRuntime.InvokeVoidAsync("localStorage.removeItem", "authToken");
+
+        NavigationManager.NavigateTo("/");
+    }
+}
+
